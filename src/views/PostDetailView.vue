@@ -59,7 +59,7 @@
         <h1 class="font-bold text-4xl text-blue-900">{{ post.title }}</h1>
         <p class="text-gray-500 text-sm">Publié le : {{ post.created_at }} par {{ post.user.name }}</p>
       </div>
-      <div>
+      <div class="mb-4">
         <p class="text-gray-700 text-base">{{ post.content }}</p>
       </div>
       <div>
